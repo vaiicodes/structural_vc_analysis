@@ -1,0 +1,5 @@
+fastq:
+  - "data/HG002_R1_wgs_chr21.fastq.gz"
+  - "data/HG002_R2_wgs_chr21.fastq.gz"
+reference: "data/chr21.fa"
+

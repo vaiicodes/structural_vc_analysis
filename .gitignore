@@ -1,0 +1,28 @@
+# Snakemake files
+.snakemake/
+
+# Data files (large genomic files)
+data/
+*.fastq.gz
+*.fa
+*.fai
+*.dict
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+
+# Results (can be regenerated)
+results/
+*.bam
+*.bai
+*.vcf.gz
+*.tbi
+*.csv
+
+# Other common ignores
+__pycache__/
+*.pyc
+.DS_Store
+*.log
